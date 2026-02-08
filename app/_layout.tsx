@@ -1,20 +1,3 @@
-// import { Stack } from "expo-router";
-// import { AuthProvider } from "../src/store/AuthContext";
-
-// export default function RootLayout() {
-//   return (
-//     <AuthProvider>
-//       <Stack screenOptions={{ headerShown: false }}>
-//         {/* Ang Expo Router na ang bahala sa screens,
-//             basta nakabalot sila sa AuthProvider */}
-//         <Stack.Screen name="index" />
-//         <Stack.Screen name="(auth)" />
-//         <Stack.Screen name="(tabs)" />
-//       </Stack>
-//     </AuthProvider>
-//   );
-// }
-
 import { Stack, useRouter, useSegments } from "expo-router";
 import { useEffect } from "react";
 import { AuthProvider, useAuth } from "../src/store/AuthContext";
