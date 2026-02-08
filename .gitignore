@@ -43,3 +43,15 @@ app-example
 /android
 
 .env*
+
+
+# Local env files
+.env
+.env.local
+.env.*
+
+node_modules/
+.expo/
+dist/
+npm-debug.*
+yarn-error.*
