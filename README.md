@@ -1,3 +1,1 @@
-# Welcome 👋
-
 ## Clean FB Architecture
